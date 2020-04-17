@@ -3,6 +3,9 @@
       <v-row>
           <v-col class="primary">
             <a class="white--text">SPORTS STORE</a>
+            <router-link to="/login" class="btn btn-primary text-white">
+                    Admin Login
+                </router-link>
             <CartSummary/>
           </v-col>            
         </v-row>
